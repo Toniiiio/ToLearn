@@ -6,7 +6,7 @@ OpenAPI
 WSGI / ASGI
 
 
-# Einordnung:
+### Einordnung:
 
 Source:https://fastapi.tiangolo.com/benchmarks/
 
@@ -14,19 +14,22 @@ Uvicorn: an ASGI server
 Starlette: (uses Uvicorn) a web microframework
 FastAPI: (uses Starlette) an API microframework with several additional features for building APIs, with data validation, etc.
 
-Uvicorn:
+#### Uvicorn:
+
 You wouldn't write an application in Uvicorn directly.
 
-Starlette:
+#### Starlette:
+
 If you are comparing Starlette, compare it against Flask, Django, etc..
 
-FastAPI:
+#### FastAPI:
+
 FastAPI provides more features on top of Starlette. 
 Features that you almost always need when building APIs, like data validation and serialization.** 
 And by using it, you get automatic documentation for free
 
 Supports non sql databases, like mongodb etc.
-
+Supports asynchronity with 
 
 
 
