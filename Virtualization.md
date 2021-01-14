@@ -32,3 +32,14 @@ https://www.quora.com/How-does-a-Hypervisor-work
 - Data
 - Application ("With application virtualization, a Windows app can run on Linux.")
 - Server
+
+
+#### How does VDI work?
+In VDI, a hypervisor segments servers into virtual machines that in turn host virtual desktops, which users access remotely from their devices. Users can access these virtual desktops from any device or location, and all processing is done on the host server.
+
+Source: https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi#:~:text=How%20does%20VDI%20work%3F,done%20on%20the%20host%20server.
+
+
+##### Questions:
+
+The difference between VM and VDI. Are VDIs remotely accessed VMs?
