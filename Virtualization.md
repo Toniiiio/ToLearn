@@ -43,3 +43,6 @@ Source: https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastru
 ##### Questions:
 
 The difference between VM and VDI. Are VDIs remotely accessed VMs?
+
+#### Virtualization vs VM
+https://jaxenter.de/docker-vs-vm-54816#:~:text=Im%20Gegensatz%20zu%20einer%20VM,somit%20wesentlich%20leichter%20zu%20portieren.
