@@ -26,7 +26,7 @@ https://www.quora.com/How-does-a-Hypervisor-work
 
 #### Ways of virtualization:
 
-- Desktop (VDI)
+- Desktop (VDI) - Virtual Desktop Infrastructure
 - Networking
 - Storage
 - Data
@@ -40,9 +40,27 @@ In VDI, a hypervisor segments servers into virtual machines that in turn host vi
 Source: https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi#:~:text=How%20does%20VDI%20work%3F,done%20on%20the%20host%20server.
 
 
+###### Desktop-Virtualisierung 
+Desktop-Virtualisierung ist ein generischer Begriff für jede Technologie, die eine Desktop-Umgebung von der Hardware trennt
+Desktop-Virtualisierung lässt sich auf unterschiedliche Weise implementieren, etwa in Form von Remotedesktopdiensten (RDS). Dabei stellen Anwender eine Verbindung zu einem gemeinsam genutzten Desktop her, der auf einem Remote-Server ausgeführt wird.
+
+Source: https://www.vmware.com/de/topics/glossary/content/virtual-desktop-infrastructure-vdi.html#:~:text=Unterschied%20zwischen%20VDI%20und%20virtuellen,mithilfe%20eines%20Hypervisors%20erstellt%20werden.
+
+##### VDI vs desktop virtualization:
+Desktop virtualization means that you run a virtual machine on your desktop computer. Virtual desktop infrastructure (VDI) is a data center technology that supplies hosted desktop images to remote users. 
+https://www.zdnet.com/article/desktop-virtualization-vs-virtual-desktop-infrastructure/#:~:text=Desktop%20virtualization%20means%20that%20you,desktop%20images%20to%20remote%20users.&text=Generally%20speaking%2C%20desktop%20virtualization%20is,a%20single%20guest%20virtual%20machine.
+
+
 ##### Questions:
 
-The difference between VM and VDI. Are VDIs remotely accessed VMs?
+The difference between VM and VDI?
 
-#### Virtualization vs VM
+#### Desctop Virtualization vs VM
+- I can have VMs on hardware but dont access it remotely, so no virtualised desktop
+- I can remote access a pc with no VMs, then i have virtualised desktop without a VM
+
+Alternative:
 https://jaxenter.de/docker-vs-vm-54816#:~:text=Im%20Gegensatz%20zu%20einer%20VM,somit%20wesentlich%20leichter%20zu%20portieren.
+
+
+
