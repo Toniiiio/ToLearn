@@ -63,4 +63,8 @@ Alternative:
 https://jaxenter.de/docker-vs-vm-54816#:~:text=Im%20Gegensatz%20zu%20einer%20VM,somit%20wesentlich%20leichter%20zu%20portieren.
 
 
+Source:
+https://docs.microsoft.com/de-de/virtualization/windowscontainers/about/containers-vs-vm
+
+
 
